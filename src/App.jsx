@@ -1,5 +1,5 @@
 // src/App.jsx
-import "./app.css";
+import "./App.css";
 import TopNav from "./components/TopNav";
 import ProfileHero from "./components/ProfileHero";
 import Section from "./components/Section";
