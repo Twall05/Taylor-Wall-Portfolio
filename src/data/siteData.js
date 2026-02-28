@@ -1,23 +1,30 @@
 // src/data/siteData.js
 
-export const lastUpdated = "Feb 26, 2026"; // update whenever you make major edits
+export const lastUpdated = "Feb 26, 2026";
 
 export const navLinks = [
   { label: "Main", href: "#top" },
-  { label: "Projects", href: "#projects" },
-  { label: "Work", href: "#work" },
-  { label: "Awards", href: "#awards" },
   { label: "Education", href: "#education" },
+  { label: "Work", href: "#work" },
   { label: "Professional Development", href: "#prodev" },
-  { label: "Links", href: "#links" },
+  { label: "Projects", href: "#projects" },
+  { label: "Awards", href: "#awards" },
   { label: "Hobbies", href: "#hobbies" },
+  { label: "Links", href: "#links" },
 ];
 
 // Buttons/icons under your name (fill later)
 export const socialLinks = [
-  { label: "GitHub", href: "#", iconText: "GH" },
-  { label: "LinkedIn", href: "#", iconText: "in" },
-  { label: "Email", href: "mailto:taylorkwall5@gmail.com", iconText: "@" },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/taylor-wall-01581228a/",
+    icon: "linkedin",
+  },
+  {
+    label: "Email",
+    href: "mailto:taylorkwall5@gmail.com",
+    icon: "gmail",
+  },
 ];
 
 // MAIN: what kind of CS student / jobs you want (required) :contentReference[oaicite:3]{index=3}
@@ -25,11 +32,11 @@ export const mainProfile = {
   name: "Taylor Wall",
   subtitleLine1: "Computer Science + Data Science & Analytics Student (LSU).",
   subtitleLine2: "Interested in software engineering, data tools, and applied AI.",
-  image: "/placeholder-profile.jpg", // placeholder
+  image: "/placeholder-profile.jpg",
   bio1:
-    "Write a short intro about what kind of computer science student you are and the roles you want (internships / entry-level SWE / data roles).",
+    "Body1", //Write a short intro about what kind of computer science student you are and the roles you want (internships / entry-level SWE / data roles).
   bio2:
-    "Add a second short paragraph (2–4 lines) highlighting what you like building (web apps, dashboards, automation, etc.).",
+    "Body2", //Add a second short paragraph (2–4 lines) highlighting what you like building (web apps, dashboards, automation, etc.).
 };
 
 // PROJECTS (1 item) — you can swap this later; currently uses your resume project
@@ -38,7 +45,7 @@ export const projects = [
     title: "College Football Power Rankings",
     venue: "Python · Streamlit",
     authors: "Personal project",
-    href: "https://cfbrankings.streamlit.app", // from your resume :contentReference[oaicite:4]{index=4}
+    href: "https://cfbrankings.streamlit.app",
   },
 ];
 

@@ -1,4 +1,11 @@
-// src/components/ProfileHero.jsx
+import linkedInIcon from "../assets/LinkedIn_icon.svg.png";
+import gmailIcon from "../assets/Gmail_Icon.png";
+
+const iconMap = {
+  linkedin: linkedInIcon,
+  gmail: gmailIcon,
+};
+
 export default function ProfileHero({ profile }) {
   return (
     <section id="top" className="hero">
@@ -21,7 +28,11 @@ export default function ProfileHero({ profile }) {
             aria-label={s.label}
             title={s.label}
           >
-            {s.iconText}
+            <img
+              src={iconMap[s.icon]}
+              alt={s.label}
+              className="socialIcon"
+            />
           </a>
         ))}
       </div>

@@ -294,3 +294,9 @@ html{
   .name{ font-size: 36px; }
   .topNav{ gap: 10px; }
 }
+
+.socialIcon{
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
