@@ -114,7 +114,7 @@ export const professionalDevelopment = [
 // LINKS section (you’ll fill these later)
 export const links = [
   { label: "GitHub", href: "https://github.com/Twall05" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/taylor-wall-702014258/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/taylor-wall-01581228a/" },
   {
     label: "Resume (PDF)",
     href: "/Taylor-Wall-Portfolio/TaylorWallResume2025.pdf",
