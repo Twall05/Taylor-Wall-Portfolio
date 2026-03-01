@@ -78,7 +78,7 @@ export default function App() {
         </Section>
 
         {/* PROJECTS */}
-        <Section id="projects" title="Projects">
+        <Section id="projects" title="Projects" projectsSection>
           <div className="list">
             {projects.map((p) => (
               <ListItem key={p.title} item={p} />
@@ -108,10 +108,17 @@ export default function App() {
         </Section>
 
         {/* LINKS */}
-        <Section id="links" title="Links">
+        <Section id="links" title="Links" linksSection>
           <div className="linkGrid">
             {links.map((l) => (
-              <a key={l.label} className="linkPill" href={l.href} target="_blank" rel="noreferrer">
+              <a
+                key={l.label}
+                className="linkPill"
+                href={l.href}
+                target={l.download ? undefined : "_blank"}
+                rel={l.download ? undefined : "noreferrer"}
+                download={l.download}
+              >
                 {l.label}
               </a>
             ))}

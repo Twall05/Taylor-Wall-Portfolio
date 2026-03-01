@@ -31,12 +31,10 @@ export const socialLinks = [
 export const mainProfile = {
   name: "Taylor Wall",
   subtitleLine1: "Computer Science + Data Science & Analytics Student (LSU).",
-  subtitleLine2: "Interested in software engineering, data tools, and applied AI.",
+  subtitleLine2: "Interested in computer science positions, data science positions, and applied AI.",
   image: "/placeholder-profile.jpg",
   bio1:
-    "Body1", //Write a short intro about what kind of computer science student you are and the roles you want (internships / entry-level SWE / data roles).
-  bio2:
-    "Body2", //Add a second short paragraph (2–4 lines) highlighting what you like building (web apps, dashboards, automation, etc.).
+    "Hello, I am a Junior at Louisiana State University studying Computer science with a concentration in Data Science & Analytics. I have had 2 internships at the college level, one doing Bioinformatics in a biology lab at LSU, and the other doing Data Analysis at BASF. In my roles I have used python, streamlit, pandas, QWEN models, Microsoft Copilot agent builders, and more. I am currently looking for Computer Science roles for after I graduate in May 2027. "
 };
 
 // PROJECTS (1 item) — you can swap this later; currently uses your resume project
@@ -89,9 +87,8 @@ export const work = [
 export const awards = [
   {
     title: "BASF Scholarship Award",
-    venue: "Award",
-    authors: "Details coming soon (placeholder)",
-    href: "#",
+    venue: "Spring 2023",
+    authors: "Scholarship awarded by BASF for academic excellence and potential in the field of data science.",
   },
 ];
 
@@ -101,8 +98,7 @@ export const education = [
     title: "Louisiana State University",
     venue: "Expected May 2027",
     authors:
-      "Dual Degree: BS Computer Science + Data Science & Analytics and BS Business (Business Analytics) — GPA 3.3. :contentReference[oaicite:19]{index=19}",
-    href: "#",
+      "BS Computer Science + Data Science & Analytics — GPA 3.3."
   },
 ];
 
@@ -110,23 +106,26 @@ export const education = [
 export const professionalDevelopment = [
   {
     title: "BASF x LSU AI Team (Site Planning Tool)",
-    venue: "Professional Development",
-    authors: "Helped lead BASF x LSU AI team to create a site planning tool. :contentReference[oaicite:20]{index=20}",
-    href: "#",
+    venue: "Fall 2025",
+    authors: "Helped lead BASF x LSU AI team to create a site planning tool. This was a semester long project where at the end we presented to over 100 buissness leaders at Tiger Stadium about our Project. Our project was to create a tool to where it would automatically create job plan for all maitencance at the BASF site. "
   },
 ];
 
 // LINKS section (you’ll fill these later)
 export const links = [
-  { label: "GitHub", href: "#" },
-  { label: "LinkedIn", href: "#" },
-  { label: "Resume (PDF)", href: "#" },
+  { label: "GitHub", href: "https://github.com/Twall05" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/taylor-wall-702014258/" },
+  {
+    label: "Resume (PDF)",
+    href: "/Taylor-Wall-Portfolio/TaylorWallResume2025.pdf",
+    download: true,
+  },
   { label: "Email", href: "mailto:taylorkwall5@gmail.com" },
 ];
 
 // HOBBIES section (placeholders)
 export const hobbies = [
-  { title: "Hobby 1", description: "Placeholder — add later." },
-  { title: "Hobby 2", description: "Placeholder — add later." },
-  { title: "Hobby 3", description: "Placeholder — add later." },
+  { title: "Sports", description: "Fan of sports especially college sports and football. Have been to The Swamp, Clemson memorial Stadium, Vaught-Hemmingway, and Bryant-Denny to go watch LSU play football. Also traveled to Omaha to watch LSU baseball win their 8th ring and have been to Stamford Bridge stadium in london to watch chelsea play." },
+  { title: "Hiking", description: "Have been hiking with my family all of my life. From my earliest memories in pennsylvania to in North Carolina to the last decade when I lived in Louisiana I have been hiking. Our trips almost always include going to hike such as Angels Landing in Zion National Park, partway into the Grand Canyon, or even in North Carolina when we hiked to go see 9 waterfalls." },
+  { title: "Video Games", description: "Have played video games since childhood. From sonic as a kid to modern titles such as Clair Obscur: Expedition 33 or Resident Evil Requiem. Video Games have always been a part of my life." },
 ];

@@ -1,3 +1,23 @@
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.projectsSection a {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.projectsSection a:hover {
+  color: #7c3aed;   /* purple hover */
+  text-decoration: underline;
+}
+
+
+
 :root{
   --bg:#ffffff;
   --text:#0f172a;
@@ -145,6 +165,11 @@ html{
   justify-content: center;
   gap: 10px;
   margin: 18px 0 10px;
+  color: inherit;
+}
+
+.iconRow a:hover {
+  transform: translateY(-2px);
 }
 
 .iconBtn{
@@ -262,6 +287,14 @@ html{
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.linksSection a {
+  color: var(--text);
+}
+
+.linksSection a:hover {
+  transform: translateY(-1px);
 }
 .linkPill{
   display: inline-block;
